@@ -1,0 +1,318 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: inherit;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.body-home{
+    background-image: url('images/home-background.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-meals-bgcolor{
+    background-color: burlywood;
+}
+
+#home-page img{
+  display: block;
+  padding-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+#home-page p{
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+
+#home-page h1{
+    font-size: 65px;
+    text-align: center;
+}
+
+#home-page a{
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    background-color: black;
+    font-weight: 600;
+}
+
+#contact-us a{
+    text-decoration: none;
+    color: darkslategrey;
+    background-color: transparent;
+}
+
+#contact-us a:hover{
+    background-color: sandybrown;
+}
+
+/********** HEADER *********/
+.header{
+  background-color: saddlebrown;
+  width: 100%;
+  position: fixed;
+  height: 50px;
+  top: 0;
+  text-align: center;
+}
+
+.header i{
+   float: left;
+   padding: 15px 0px 0px 17px;
+   color: black;
+}
+
+.header img{
+    width: 175px;
+    height: 100%;
+    padding: 0px 25px 0px 0px;
+}
+
+/********** MENU-PAGE *********/
+.body-menu{
+    background-image: url('images/menu-background_20220530213217355.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu-page{
+    padding-top: 50px;
+}
+
+/**** MENU-PAGE ****/
+.menu-page-list a{
+    text-decoration: none;
+}
+
+.menu-page-list-items{
+    border: 5px solid slategrey;
+    margin: 10px;
+}
+
+.menu-page-list-items h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+}
+
+.menu-page-list-items i{
+    float: right;
+    color: beige;
+    padding-right: 15px;
+}
+
+.menu-page-list-items p{
+    font-size: 15px;
+    font-style: italic;
+    color: beige;
+    padding-left: 5px;
+    margin-top: -7px;
+}
+
+/********** MEALS-ORDERS-DRINKS *********/
+.meal{
+    padding-top: 50px;
+}
+
+/**** ORDERS****/
+.meal-content img{
+    width: 100%;
+    height: 500px;
+}
+
+.meal-content h1{
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+}
+
+..meal-content-info{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.meal-content-info p{
+    font-size: 20px;
+    display: inline-block;
+    padding: 0 10px 0 10px;
+}
+
+#write-up h2{
+    text-align: center;
+}
+
+#write-up p{
+    text-align: center;
+    padding: 0 15px 0 15px;
+    font-size: 20px;
+}
+
+.meal-content-info-extras{
+    padding-left: 15px;
+}
+
+#submit-order{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#submit-order p{
+    text-align: center;
+}
+
+#submit-order textarea{
+    width: 80%;
+    height: 200px;
+    font-size: 15px;
+}
+
+#submit-order a{
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    background-color: black;
+    font-weight: 600;
+}
+
+/********** RESPONSIVENESS *********/
+
+@media only screen and (min-width: 600px) {
+    .body-home{
+        background-position: center;
+    }
+    #home-page img{
+        display: block;
+        padding-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+}
+    
+    #home-page p{
+    display: block;
+    text-align: center;
+    font-size: 15px;
+}
+    
+    .menu-page{
+        width: 80%;
+        margin: auto;
+    }
+    .meal{
+        width: 80%;
+        margin: auto;
+}
+
+
+@media only screen and (min-width: 700px) {
+    .body-home{
+        background-position: center;
+    }
+    #home-page img{
+        display: block;
+        padding-top: 7px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 45%;
+}
+    
+    #home-page h1{
+    font-size: 50px;
+}
+    
+    #home-page p{
+    display: block;
+    text-align: center;
+    font-size: 17px;
+}
+    
+    .menu-page{
+        width: 70%;
+        margin: auto;
+    }
+    
+    .meal{
+        width: 55%;
+        margin: auto;
+}
+
+@media only screen and (min-width: 1000px) {
+    .body-home{
+        background-position: center;
+    }
+    #home-page img{
+        display: block;
+        padding-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+}
+    
+    #home-page h1{
+    font-size: 47px;
+}
+    
+    #home-page p{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+    
+    .menu-page{
+        width: 60%;
+        margin: auto;
+    }
+    .meal{
+        width: 50%;
+        margin: auto;
+}
+
+@media only screen and (min-width: 1500px) {
+    .body-home{
+        background-position: center;
+    }
+    #home-page img{
+        display: block;
+        padding-top: 3px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 35%;
+}
+    
+    #home-page h1{
+    font-size: 45px;
+}
+    
+    #home-page p{
+    display: block;
+    text-align: center;
+    font-size: 22px;
+}
+    
+    .menu-page{
+        width: 40%;
+        margin: auto;
+    }
+    
+    .meal{
+        width: 50%;
+        margin: auto;
+    }
+}
